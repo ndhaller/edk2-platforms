@@ -30,7 +30,6 @@
   ReportCpuHobLib
 
 [Packages]
-  EagleStreamSiliconPkg/EagleStreamSiliconPkg.dec
   MinPlatformPkg/MinPlatformPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
@@ -66,9 +65,4 @@
   gEfiMemoryTypeInformationGuid
 
 [Depex]
-  gDsaGpioSocLibApiGuid AND
-  gDsaGpioLibApiGuid AND
-  gDsaTcoLibApiGuid AND
-  gDsaPchCycleDecodingLibApiGuid AND
-  gDsaPmcLibApiGuid AND
   gEfiPeiReadOnlyVariable2PpiGuid

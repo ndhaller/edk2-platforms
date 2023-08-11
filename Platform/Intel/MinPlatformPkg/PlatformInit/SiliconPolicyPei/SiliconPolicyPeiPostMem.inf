@@ -43,7 +43,6 @@
 ################################################################################
 
 [Packages]
-  EagleStreamSiliconPkg/EagleStreamSiliconPkg.dec
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MinPlatformPkg/MinPlatformPkg.dec
@@ -54,26 +53,4 @@
   SiliconPolicyUpdateLib
   
 [Depex]
-  gDsaUpiHostDataLibApiGuid AND
-  gDsaGpioLibApiGuid AND
-  gDsaModuleAddrCalcLibApiGuid AND
-  gDsaBaseMemoryServicesLibApiGuid AND
-  gDsaCrcLibApiGuid AND
-  gDsaMeTypeLibApiGuid AND
-  gDsaMmPciLibApiGuid AND
-  gDsaCpuPreMemPolicyLibApiGuid AND
-  gDsaPmcLibApiGuid AND
-  gDsaEmulationConfigurationLibApiGuid AND
-  gDsaPsmiPolicyLibApiGuid AND
-  gDsaSecurityApiLibApiGuid AND
-  gDsaSecurityPolicyLibApiGuid AND
-  gDsaMeFiaMuxLibApiGuid AND
-  gDsaMeUtilsLibApiGuid AND
-  gDsaMeConfigLibApiGuid AND
-  gDsaPchInfoLibApiGuid AND
-  gDsaMemoryPolicyLibApiGuid AND
-  gDsaPeiUpiPolicyLibApiGuid AND
-  gDsaRasRcPolicyPpiLibApiGuid AND
-  gDsaSiPolicyLibApiGuid AND
-  gDsaPeiIioSiPolicyLibApiGuid AND
   gEfiPeiMemoryDiscoveredPpiGuid

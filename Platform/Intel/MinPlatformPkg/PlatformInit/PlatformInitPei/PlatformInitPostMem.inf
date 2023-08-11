@@ -28,7 +28,6 @@
   SetCacheMtrrLib
 
 [Packages]
-  EagleStreamSiliconPkg/EagleStreamSiliconPkg.dec
   MinPlatformPkg/MinPlatformPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
@@ -45,15 +44,5 @@
 [Protocols]
 
 [Depex]
-  gDsaIioSysInfoLibApiGuid AND
-  gDsaX2ApicIdDetectLibApiGuid AND
-  gDsaSiliconWorkaroundLibApiGuid AND
-  gDsaIoAccessLibApiGuid AND
-  gDsaPmcLibApiGuid AND
-  gDsaKtiApiLibApiGuid AND
-  gDsaSystemInfoLibApiGuid AND
-  gDsaMemMapDataLibApiGuid AND
-  gDsaCpuAndRevisionLibApiGuid AND
-  gDsaEmulationConfigurationLibApiGuid AND
   gEfiPeiMemoryDiscoveredPpiGuid
 
