@@ -1,0 +1,39 @@
+## @file
+# Dynamic Silicon Access library implementation DxeSmmDynamicSiliconAccessLib
+#
+# Calls an API that provides silicon library functions.
+#
+# File contents are tool generated, avoid modification where possible.
+#
+# @copyright
+# Copyright (C) 2023 Intel Corporation.
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = DxeSmmDynamicSiliconAccessLib
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = DynamicSiliconAccessLib
+
+[Sources]
+  DxeSmmDynamicSiliconAccessLib.c
+
+[Packages]
+  CpRcPkg/CpRcPkg.dec
+  ServerSiliconPkg/SiliconPkg.dec
+  ServerSiliconPkg/Iio/IioRcPkg.dec
+  ClientOneSiliconPkg/SiPkg.dec
+  ServerPlatformPkg/PlatformPkg.dec
+  ServerSiliconPkg/Cpu/CpuRcPkg.dec
+  ServerSecurityPkg/ServerSecurityPkg.dec
+  EagleStreamSiliconPkg/EagleStreamSiliconPkg.dec
+  IntelSiliconPkg/IntelSiliconPkg.dec
+  UefiCpuPkg/UefiCpuPkg.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  BaseLib
+  DebugLib
+  BasicIpBlockServicesLib

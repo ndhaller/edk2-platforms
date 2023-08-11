@@ -30,6 +30,7 @@
   TestPointCheckLib
 
 [Packages]
+  EagleStreamSiliconPkg/EagleStreamSiliconPkg.dec
   MdePkg/MdePkg.dec
   MinPlatformPkg/MinPlatformPkg.dec
   MdeModulePkg/MdeModulePkg.dec
@@ -46,4 +47,5 @@
   gEfiEndOfDxeEventGroupGuid
 
 [Depex]
+  gDsaMmPciLibApiGuid AND
   TRUE
